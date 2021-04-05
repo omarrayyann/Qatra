@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>164285580480-5f7a6vo2un535m6osqgon4b3so88hmeo.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.164285580480-5f7a6vo2un535m6osqgon4b3so88hmeo</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAGU5KCZ69v9apxEn9K9fz4fxkyIBKnG8I</string>
+	<key>GCM_SENDER_ID</key>
+	<string>164285580480</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.omarrayyan.bloodJo</string>
+	<key>PROJECT_ID</key>
+	<string>blood-jo</string>
+	<key>STORAGE_BUCKET</key>
+	<string>blood-jo.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:164285580480:ios:198e818b611f82c2b21925</string>
+</dict>
+</plist>

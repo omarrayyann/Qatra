@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		455692DE261AC0B00047CF15 /* HomeFeedUtTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455692DC261AC0B00047CF15 /* HomeFeedUtTableViewCell.swift */; };
+		455692DF261AC0B00047CF15 /* HomeFeedUtTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 455692DD261AC0B00047CF15 /* HomeFeedUtTableViewCell.xib */; };
+		45E374AB26196E3F002D65B9 /* FirstUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E374AA26196E3F002D65B9 /* FirstUseViewController.swift */; };
+		45E6B2A5261AD7D70050DC79 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45E6B2A4261AD7D70050DC79 /* GoogleService-Info.plist */; };
+		45E6B2A8261ADC3D0050DC79 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E6B2A7261ADC3D0050DC79 /* Extensions.swift */; };
+		45E6B2AB261ADF060050DC79 /* SubmitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E6B2AA261ADF060050DC79 /* SubmitViewController.swift */; };
+		45E6B2C6261AF42F0050DC79 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E6B2C5261AF42F0050DC79 /* ProfileViewController.swift */; };
 		45E6C91A26195C4B0033ECDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E6C91926195C4B0033ECDF /* AppDelegate.swift */; };
 		45E6C91C26195C4B0033ECDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E6C91B26195C4B0033ECDF /* SceneDelegate.swift */; };
 		45E6C91E26195C4B0033ECDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E6C91D26195C4B0033ECDF /* ViewController.swift */; };
@@ -14,9 +21,21 @@
 		45E6C92426195C4B0033ECDF /* iQuiz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45E6C92226195C4B0033ECDF /* iQuiz.xcdatamodeld */; };
 		45E6C92626195C4C0033ECDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45E6C92526195C4C0033ECDF /* Assets.xcassets */; };
 		45E6C92926195C4C0033ECDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E6C92726195C4C0033ECDF /* LaunchScreen.storyboard */; };
+		45E6C932261961F10033ECDF /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E6C931261961F10033ECDF /* NewViewController.swift */; };
+		45E6C935261968E10033ECDF /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E6C934261968E10033ECDF /* MyViewController.swift */; };
+		9DBF044816F66A9C3CEDF8D1 /* Pods_iQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FFCDC409ED8ACFDD0A104E6 /* Pods_iQuiz.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		035C7973A5C252638D82683D /* Pods-iQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iQuiz.debug.xcconfig"; path = "Target Support Files/Pods-iQuiz/Pods-iQuiz.debug.xcconfig"; sourceTree = "<group>"; };
+		0FFCDC409ED8ACFDD0A104E6 /* Pods_iQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		455692DC261AC0B00047CF15 /* HomeFeedUtTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedUtTableViewCell.swift; sourceTree = "<group>"; };
+		455692DD261AC0B00047CF15 /* HomeFeedUtTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeFeedUtTableViewCell.xib; sourceTree = "<group>"; };
+		45E374AA26196E3F002D65B9 /* FirstUseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUseViewController.swift; sourceTree = "<group>"; };
+		45E6B2A4261AD7D70050DC79 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		45E6B2A7261ADC3D0050DC79 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		45E6B2AA261ADF060050DC79 /* SubmitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitViewController.swift; sourceTree = "<group>"; };
+		45E6B2C5261AF42F0050DC79 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		45E6C91626195C4B0033ECDF /* iQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E6C91926195C4B0033ECDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45E6C91B26195C4B0033ECDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +45,9 @@
 		45E6C92526195C4C0033ECDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45E6C92826195C4C0033ECDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45E6C92A26195C4C0033ECDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45E6C931261961F10033ECDF /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		45E6C934261968E10033ECDF /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		DA3B6EEEB20B85C86FD0F382 /* Pods-iQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iQuiz.release.xcconfig"; path = "Target Support Files/Pods-iQuiz/Pods-iQuiz.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +55,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DBF044816F66A9C3CEDF8D1 /* Pods_iQuiz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26AF1400C056BB260A996CB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				035C7973A5C252638D82683D /* Pods-iQuiz.debug.xcconfig */,
+				DA3B6EEEB20B85C86FD0F382 /* Pods-iQuiz.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		29F59F1919124AD01A3B6697 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FFCDC409ED8ACFDD0A104E6 /* Pods_iQuiz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		455692E1261AC0EF0047CF15 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				455692DC261AC0B00047CF15 /* HomeFeedUtTableViewCell.swift */,
+				455692DD261AC0B00047CF15 /* HomeFeedUtTableViewCell.xib */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
 		45E6C90D26195C4B0033ECDF = {
 			isa = PBXGroup;
 			children = (
 				45E6C91826195C4B0033ECDF /* iQuiz */,
 				45E6C91726195C4B0033ECDF /* Products */,
+				26AF1400C056BB260A996CB7 /* Pods */,
+				29F59F1919124AD01A3B6697 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +109,18 @@
 		45E6C91826195C4B0033ECDF /* iQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				45E374AA26196E3F002D65B9 /* FirstUseViewController.swift */,
+				45E6C934261968E10033ECDF /* MyViewController.swift */,
 				45E6C91926195C4B0033ECDF /* AppDelegate.swift */,
+				45E6B2A4261AD7D70050DC79 /* GoogleService-Info.plist */,
 				45E6C91B26195C4B0033ECDF /* SceneDelegate.swift */,
 				45E6C91D26195C4B0033ECDF /* ViewController.swift */,
 				45E6C91F26195C4B0033ECDF /* Main.storyboard */,
+				45E6B2C5261AF42F0050DC79 /* ProfileViewController.swift */,
+				45E6B2AA261ADF060050DC79 /* SubmitViewController.swift */,
+				455692E1261AC0EF0047CF15 /* Custom Cells */,
+				45E6C931261961F10033ECDF /* NewViewController.swift */,
+				45E6B2A7261ADC3D0050DC79 /* Extensions.swift */,
 				45E6C92526195C4C0033ECDF /* Assets.xcassets */,
 				45E6C92726195C4C0033ECDF /* LaunchScreen.storyboard */,
 				45E6C92A26195C4C0033ECDF /* Info.plist */,
@@ -77,9 +136,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45E6C92D26195C4C0033ECDF /* Build configuration list for PBXNativeTarget "iQuiz" */;
 			buildPhases = (
+				426B7C54248FA0B128746EC3 /* [CP] Check Pods Manifest.lock */,
 				45E6C91226195C4B0033ECDF /* Sources */,
 				45E6C91326195C4B0033ECDF /* Frameworks */,
 				45E6C91426195C4B0033ECDF /* Resources */,
+				540086D84D703F9836C79962 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,6 +189,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				45E6C92926195C4C0033ECDF /* LaunchScreen.storyboard in Resources */,
+				455692DF261AC0B00047CF15 /* HomeFeedUtTableViewCell.xib in Resources */,
+				45E6B2A5261AD7D70050DC79 /* GoogleService-Info.plist in Resources */,
 				45E6C92626195C4C0033ECDF /* Assets.xcassets in Resources */,
 				45E6C92126195C4B0033ECDF /* Main.storyboard in Resources */,
 			);
@@ -135,14 +198,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		426B7C54248FA0B128746EC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iQuiz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		540086D84D703F9836C79962 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iQuiz/Pods-iQuiz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iQuiz/Pods-iQuiz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iQuiz/Pods-iQuiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		45E6C91226195C4B0033ECDF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45E374AB26196E3F002D65B9 /* FirstUseViewController.swift in Sources */,
+				45E6B2A8261ADC3D0050DC79 /* Extensions.swift in Sources */,
+				455692DE261AC0B00047CF15 /* HomeFeedUtTableViewCell.swift in Sources */,
 				45E6C92426195C4B0033ECDF /* iQuiz.xcdatamodeld in Sources */,
 				45E6C91E26195C4B0033ECDF /* ViewController.swift in Sources */,
+				45E6C932261961F10033ECDF /* NewViewController.swift in Sources */,
+				45E6B2C6261AF42F0050DC79 /* ProfileViewController.swift in Sources */,
+				45E6B2AB261ADF060050DC79 /* SubmitViewController.swift in Sources */,
 				45E6C91A26195C4B0033ECDF /* AppDelegate.swift in Sources */,
+				45E6C935261968E10033ECDF /* MyViewController.swift in Sources */,
 				45E6C91C26195C4B0033ECDF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,7 +332,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -275,7 +387,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,6 +399,7 @@
 		};
 		45E6C92E26195C4C0033ECDF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 035C7973A5C252638D82683D /* Pods-iQuiz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -297,7 +410,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.omarrayyan.iQuiz;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omarrayyan.bloodJo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -306,6 +419,7 @@
 		};
 		45E6C92F26195C4C0033ECDF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA3B6EEEB20B85C86FD0F382 /* Pods-iQuiz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -316,7 +430,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.omarrayyan.iQuiz;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omarrayyan.bloodJo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

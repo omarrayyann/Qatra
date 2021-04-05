@@ -1,0 +1,6 @@
+framework module Pods_iQuiz {
+  umbrella header "Pods-iQuiz-umbrella.h"
+
+  export *
+  module * { export * }
+}
