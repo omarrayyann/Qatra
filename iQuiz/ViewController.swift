@@ -9,11 +9,11 @@ import UIKit
 import FirebaseFirestore
 
 protocol MyCustomCellDelegator {
-    func callSegueFromCell(name: String, place: String, phone: String, note: String, bloodType: String)}
+    func callSegueFromCell(name: String, place: String, phone: String, note: String, bloodType: String, time: String)}
 
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, MyCustomCellDelegator {
-    func callSegueFromCell(name: String, place: String, phone: String, note: String, bloodType: String) {
+    func callSegueFromCell(name: String, place: String, phone: String, note: String, bloodType: String, time: String) {
         
         
         nameCurrent = name
@@ -21,6 +21,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         phoneCurrent = phone
         noteCurrent = note
         bloodCurrent = bloodType
+        timeCurrent = time
         
         print("koko\(nameCurrent)")
         
@@ -34,14 +35,18 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     var phoneCurrent = ""
     var noteCurrent = ""
     var bloodCurrent = ""
+    var timeCurrent = ""
+
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "toProfile" {
-            let destinationVC = segue.destination as! ProfileViewController
-            destinationVC.nameLabel.text = nameCurrent
-            destinationVC.locationLabel.text = placeCurrent
-            destinationVC.phoneNumber = phoneCurrent
-            destinationVC.noteLabel.text = noteCurrent
+            let destinationVC = segue.destination as! MoreViewController
+            destinationVC.nameVar = nameCurrent
+            destinationVC.locationVar = placeCurrent
+            destinationVC.phoneVar = phoneCurrent
+            destinationVC.noteVar = noteCurrent
+            destinationVC.bloodVar = "Blood Type: \(bloodCurrent)"
+            destinationVC.timeVar = timeCurrent
 
         }
     }
@@ -294,6 +299,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell.NameLabelHidden.text = "\(firstName) \(lastName)"
         cell.bloodType.text = "\(bloodName)"
         cell.noteLabel.text = "\(extraName)"
+        cell.phoneLabel.text = phone
         
         let dateNow = NSDate() as Date
 

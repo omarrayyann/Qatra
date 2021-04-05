@@ -33,7 +33,7 @@ class HomeFeedUtTableViewCell: UITableViewCell {
 
     @IBAction func contributePressed(_ sender: Any) {
         if(self.delegate != nil){ //Just to be safe.
-            self.delegate.callSegueFromCell(name: NameLabelHidden.text!, place: "\(locationHospital.text) in \(cityName.text)", phone: phoneLabel.text!, note: noteLabel.text!, bloodType: bloodType.text!)
+            self.delegate.callSegueFromCell(name: NameLabelHidden.text!, place: "\(locationHospital.text!) in \(cityName.text!)", phone: phoneLabel.text!, note: noteLabel.text!, bloodType: bloodType.text!, time: timeLabel.text!)
         }
     }
     override func setSelected(_ selected: Bool, animated: Bool) {

@@ -231,7 +231,7 @@ class MyViewController: UIViewController {
     @IBOutlet weak var viewtop: UIStackView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        viewtop.layer.cornerRadius = viewtop.frame.height / 7
+        viewtop.layer.cornerRadius = viewtop.frame.height / 8
         buttonDone.layer.cornerRadius = buttonDone.frame.height / 7
         // Do any additional setup after loading the view.
     }

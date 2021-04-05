@@ -13,7 +13,7 @@
 		45E6B2A5261AD7D70050DC79 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45E6B2A4261AD7D70050DC79 /* GoogleService-Info.plist */; };
 		45E6B2A8261ADC3D0050DC79 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E6B2A7261ADC3D0050DC79 /* Extensions.swift */; };
 		45E6B2AB261ADF060050DC79 /* SubmitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E6B2AA261ADF060050DC79 /* SubmitViewController.swift */; };
-		45E6B2C6261AF42F0050DC79 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E6B2C5261AF42F0050DC79 /* ProfileViewController.swift */; };
+		45E6B2E2261B6E460050DC79 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E6B2E1261B6E460050DC79 /* MoreViewController.swift */; };
 		45E6C91A26195C4B0033ECDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E6C91926195C4B0033ECDF /* AppDelegate.swift */; };
 		45E6C91C26195C4B0033ECDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E6C91B26195C4B0033ECDF /* SceneDelegate.swift */; };
 		45E6C91E26195C4B0033ECDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E6C91D26195C4B0033ECDF /* ViewController.swift */; };
@@ -35,7 +35,7 @@
 		45E6B2A4261AD7D70050DC79 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		45E6B2A7261ADC3D0050DC79 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		45E6B2AA261ADF060050DC79 /* SubmitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitViewController.swift; sourceTree = "<group>"; };
-		45E6B2C5261AF42F0050DC79 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		45E6B2E1261B6E460050DC79 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		45E6C91626195C4B0033ECDF /* iQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E6C91926195C4B0033ECDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45E6C91B26195C4B0033ECDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,8 +116,8 @@
 				45E6C91B26195C4B0033ECDF /* SceneDelegate.swift */,
 				45E6C91D26195C4B0033ECDF /* ViewController.swift */,
 				45E6C91F26195C4B0033ECDF /* Main.storyboard */,
-				45E6B2C5261AF42F0050DC79 /* ProfileViewController.swift */,
 				45E6B2AA261ADF060050DC79 /* SubmitViewController.swift */,
+				45E6B2E1261B6E460050DC79 /* MoreViewController.swift */,
 				455692E1261AC0EF0047CF15 /* Custom Cells */,
 				45E6C931261961F10033ECDF /* NewViewController.swift */,
 				45E6B2A7261ADC3D0050DC79 /* Extensions.swift */,
@@ -249,9 +249,9 @@
 				45E6B2A8261ADC3D0050DC79 /* Extensions.swift in Sources */,
 				455692DE261AC0B00047CF15 /* HomeFeedUtTableViewCell.swift in Sources */,
 				45E6C92426195C4B0033ECDF /* iQuiz.xcdatamodeld in Sources */,
+				45E6B2E2261B6E460050DC79 /* MoreViewController.swift in Sources */,
 				45E6C91E26195C4B0033ECDF /* ViewController.swift in Sources */,
 				45E6C932261961F10033ECDF /* NewViewController.swift in Sources */,
-				45E6B2C6261AF42F0050DC79 /* ProfileViewController.swift in Sources */,
 				45E6B2AB261ADF060050DC79 /* SubmitViewController.swift in Sources */,
 				45E6C91A26195C4B0033ECDF /* AppDelegate.swift in Sources */,
 				45E6C935261968E10033ECDF /* MyViewController.swift in Sources */,
@@ -413,7 +413,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.omarrayyan.bloodJo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -433,7 +433,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.omarrayyan.bloodJo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
