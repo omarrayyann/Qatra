@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-iQuiz/Pods-iQuiz-resources.sh
+${PODS_ROOT}/DropDown/DropDown/resources/DropDownCell.xib
+${PODS_ROOT}/UICheckbox/UICheckbox/Resources/uicheckbox_checked.png
+${PODS_ROOT}/UICheckbox/UICheckbox/Resources/uicheckbox_checked@2x.png
+${PODS_ROOT}/UICheckbox/UICheckbox/Resources/uicheckbox_unchecked.png
+${PODS_ROOT}/UICheckbox/UICheckbox/Resources/uicheckbox_unchecked@2x.png
+${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/gRPCCertificates-Cpp.bundle

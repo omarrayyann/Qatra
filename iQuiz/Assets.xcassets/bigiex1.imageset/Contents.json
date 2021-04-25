@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "you.png",
+      "filename" : "bigiex1.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "bigiex2.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "bigiex3.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

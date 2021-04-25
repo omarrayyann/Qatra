@@ -4,89 +4,96 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="homeCells" rowHeight="168" id="KGk-i7-Jjw" customClass="HomeFeedUtTableViewCell" customModule="iQuiz" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="168"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="homeCells" rowHeight="191" id="KGk-i7-Jjw" customClass="HomeFeedUtTableViewCell" customModule="iQuiz" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="191"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="168"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="191"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="daZ-2t-9rN">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="168"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="191"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amman" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rs5-au-6Yp">
                                 <rect key="frame" x="20" y="10" width="280" height="23.5"/>
                                 <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="18"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" name="Other3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Al Noor Hospital" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mFf-hH-UGZ">
                                 <rect key="frame" x="20" y="38.5" width="280" height="20.5"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" name="Other3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7 hours ago" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="03D-gF-9zR">
-                                <rect key="frame" x="20" y="122" width="280" height="21"/>
+                                <rect key="frame" x="20" y="115.5" width="280" height="21"/>
                                 <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="15"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" name="Other3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ef3-Ym-MYY">
-                                <rect key="frame" x="20" y="69" width="280" height="43"/>
-                                <color key="backgroundColor" red="0.38823529410000002" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="20" y="69" width="280" height="36.5"/>
+                                <color key="backgroundColor" name="Other2"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
                                 <state key="normal" title="contribute now">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="contributePressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="y0v-v0-OXH"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tun-WO-zDU">
-                                <rect key="frame" x="0.0" y="163" width="320" height="5"/>
-                                <color key="backgroundColor" red="0.38823529410000002" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="0.0" y="186" width="320" height="5"/>
+                                <color key="backgroundColor" name="MainColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="5" id="dZK-y8-fYX"/>
                                 </constraints>
                             </view>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSj-lf-Wyd">
-                                <rect key="frame" x="258" y="12" width="3" height="2"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by Omar Rayyan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSj-lf-Wyd">
+                                <rect key="frame" x="10" y="156.5" width="104.5" height="19.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
+                                <color key="textColor" name="Other3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="noteLong" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fi8-eb-6HR">
                                 <rect key="frame" x="258" y="18" width="5" height="2"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="1"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" name="Other3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="phome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jII-6U-b9f">
                                 <rect key="frame" x="252" y="12" width="4" height="2"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="1"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" name="Other3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A+" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1VJ-Mp-yuG">
                                 <rect key="frame" x="10" y="10" width="25.5" height="23"/>
                                 <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" name="Other3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10 units" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sfd-af-KgR">
+                                <rect key="frame" x="260" y="156.5" width="50" height="19.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
+                                <color key="textColor" name="Other3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="Tun-WO-zDU" firstAttribute="top" secondItem="03D-gF-9zR" secondAttribute="bottom" constant="20" id="4z9-8s-VfQ"/>
                             <constraint firstAttribute="trailing" secondItem="Ef3-Ym-MYY" secondAttribute="trailing" constant="20" id="5b1-Yk-HtI"/>
+                            <constraint firstItem="Tun-WO-zDU" firstAttribute="top" secondItem="WSj-lf-Wyd" secondAttribute="bottom" constant="10" id="6Kg-uM-Msr"/>
+                            <constraint firstItem="WSj-lf-Wyd" firstAttribute="leading" secondItem="daZ-2t-9rN" secondAttribute="leading" constant="10" id="882-zA-Sxy"/>
                             <constraint firstItem="03D-gF-9zR" firstAttribute="top" secondItem="Ef3-Ym-MYY" secondAttribute="bottom" constant="10" id="8YA-PF-dsm"/>
                             <constraint firstItem="Ef3-Ym-MYY" firstAttribute="top" secondItem="mFf-hH-UGZ" secondAttribute="bottom" constant="10" id="8u2-vB-grX"/>
                             <constraint firstItem="Rs5-au-6Yp" firstAttribute="leading" secondItem="daZ-2t-9rN" secondAttribute="leading" constant="20" id="CVW-OK-IrX"/>
@@ -95,8 +102,12 @@
                             <constraint firstItem="mFf-hH-UGZ" firstAttribute="leading" secondItem="daZ-2t-9rN" secondAttribute="leading" constant="20" id="HQt-r2-ILC"/>
                             <constraint firstAttribute="trailing" secondItem="03D-gF-9zR" secondAttribute="trailing" constant="20" id="I5T-Oc-QUL"/>
                             <constraint firstAttribute="trailing" secondItem="Rs5-au-6Yp" secondAttribute="trailing" constant="20" id="NE4-Lx-wgL"/>
+                            <constraint firstItem="Sfd-af-KgR" firstAttribute="top" secondItem="03D-gF-9zR" secondAttribute="bottom" constant="20" id="Ogq-F5-68i"/>
                             <constraint firstAttribute="trailing" secondItem="Tun-WO-zDU" secondAttribute="trailing" id="QCa-Zg-7Yr"/>
+                            <constraint firstItem="WSj-lf-Wyd" firstAttribute="top" secondItem="03D-gF-9zR" secondAttribute="bottom" constant="20" id="Sa3-ti-7Iq"/>
                             <constraint firstItem="Tun-WO-zDU" firstAttribute="leading" secondItem="daZ-2t-9rN" secondAttribute="leading" id="ZND-2y-nW0"/>
+                            <constraint firstAttribute="trailing" secondItem="Sfd-af-KgR" secondAttribute="trailing" constant="10" id="gko-Pv-I0S"/>
+                            <constraint firstItem="Tun-WO-zDU" firstAttribute="top" secondItem="Sfd-af-KgR" secondAttribute="bottom" constant="10" id="goO-5x-mHO"/>
                             <constraint firstItem="1VJ-Mp-yuG" firstAttribute="leading" secondItem="daZ-2t-9rN" secondAttribute="leading" constant="10" id="hWa-w6-aNY"/>
                             <constraint firstItem="03D-gF-9zR" firstAttribute="leading" secondItem="daZ-2t-9rN" secondAttribute="leading" constant="20" id="jNg-2O-EbK"/>
                             <constraint firstAttribute="trailing" secondItem="mFf-hH-UGZ" secondAttribute="trailing" constant="20" id="pc9-fu-FjG"/>
@@ -106,7 +117,7 @@
                         </constraints>
                     </view>
                 </subviews>
-                <color key="backgroundColor" red="1" green="0.79607843137254897" blue="0.55686274509803924" alpha="1" colorSpace="calibratedRGB"/>
+                <color key="backgroundColor" name="OtherColor"/>
                 <constraints>
                     <constraint firstItem="daZ-2t-9rN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="S5U-UK-tvw"/>
                     <constraint firstAttribute="bottom" secondItem="daZ-2t-9rN" secondAttribute="bottom" id="TlZ-2L-U0k"/>
@@ -124,8 +135,23 @@
                 <outlet property="noteLabel" destination="Fi8-eb-6HR" id="ySW-1o-myn"/>
                 <outlet property="phoneLabel" destination="jII-6U-b9f" id="x3o-EN-cbg"/>
                 <outlet property="timeLabel" destination="03D-gF-9zR" id="Ty7-KI-LGi"/>
+                <outlet property="unitsLabel" destination="Sfd-af-KgR" id="zhO-Uw-xab"/>
             </connections>
-            <point key="canvasLocation" x="37.681159420289859" y="114.50892857142857"/>
+            <point key="canvasLocation" x="37.681159420289859" y="122.20982142857142"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <namedColor name="MainColor">
+            <color red="0.97254901960784312" green="0.92941176470588238" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Other2">
+            <color red="1" green="0.79607843137254897" blue="0.55686274509803924" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Other3">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="OtherColor">
+            <color red="0.50599998235702515" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
 </document>

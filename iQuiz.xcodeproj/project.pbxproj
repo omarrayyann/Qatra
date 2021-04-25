@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		450A98CF2620F5A2000E0456 /* AboutieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450A98CE2620F5A2000E0456 /* AboutieViewController.swift */; };
+		450A98EC2620F5C6000E0456 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450A98EB2620F5C6000E0456 /* FilterViewController.swift */; };
 		455692DE261AC0B00047CF15 /* HomeFeedUtTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455692DC261AC0B00047CF15 /* HomeFeedUtTableViewCell.swift */; };
 		455692DF261AC0B00047CF15 /* HomeFeedUtTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 455692DD261AC0B00047CF15 /* HomeFeedUtTableViewCell.xib */; };
+		458837D7261E6ED3001C0663 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458837D6261E6ED3001C0663 /* Manager.swift */; };
+		45B3363F261ECDC300D409FA /* FilterArabicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B3363E261ECDC200D409FA /* FilterArabicViewController.swift */; };
+		45B944A2261FDFD100E5B871 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B944A1261FDFD100E5B871 /* SettingsViewController.swift */; };
+		45BC9BF92620F72B00552086 /* LangaugeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC9BF82620F72B00552086 /* LangaugeViewController.swift */; };
 		45E374AB26196E3F002D65B9 /* FirstUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E374AA26196E3F002D65B9 /* FirstUseViewController.swift */; };
 		45E6B2A5261AD7D70050DC79 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45E6B2A4261AD7D70050DC79 /* GoogleService-Info.plist */; };
 		45E6B2A8261ADC3D0050DC79 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E6B2A7261ADC3D0050DC79 /* Extensions.swift */; };
@@ -23,14 +29,185 @@
 		45E6C92926195C4C0033ECDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E6C92726195C4C0033ECDF /* LaunchScreen.storyboard */; };
 		45E6C932261961F10033ECDF /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E6C931261961F10033ECDF /* NewViewController.swift */; };
 		45E6C935261968E10033ECDF /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E6C934261968E10033ECDF /* MyViewController.swift */; };
-		9DBF044816F66A9C3CEDF8D1 /* Pods_iQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FFCDC409ED8ACFDD0A104E6 /* Pods_iQuiz.framework */; };
+		EDC65F6C15FA29D08E639768 /* Pods_iQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A519FE05F06E1BA2262ECCB /* Pods_iQuiz.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		450A987E2620F32A000E0456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450A98612620F32A000E0456 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BF96B57ADE05E8909F823BDF6868B3E3;
+			remoteInfo = abseil;
+		};
+		450A98802620F32A000E0456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450A98612620F32A000E0456 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27B91A616D3E3D080255C6C93A591F62;
+			remoteInfo = BonsaiController;
+		};
+		450A98822620F32A000E0456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450A98612620F32A000E0456 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 514D7742C6CBB0BDBD9984AEE97DDFDE;
+			remoteInfo = "BoringSSL-GRPC";
+		};
+		450A98842620F32A000E0456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450A98612620F32A000E0456 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9B6725B782188F18CB76A740433F14E4;
+			remoteInfo = DropDown;
+		};
+		450A98862620F32A000E0456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450A98612620F32A000E0456 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E2B63D462DB7F827C4B11FD51E4F8E2D;
+			remoteInfo = FirebaseCore;
+		};
+		450A98882620F32A000E0456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450A98612620F32A000E0456 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8CC9178C366942FD6FF6A115604EAD58;
+			remoteInfo = FirebaseCoreDiagnostics;
+		};
+		450A988A2620F32A000E0456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450A98612620F32A000E0456 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 51671C73F008B5C0C3751B3855999213;
+			remoteInfo = FirebaseDatabase;
+		};
+		450A988C2620F32A000E0456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450A98612620F32A000E0456 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 92000153CD73F7FC2DBAB4AB708269F3;
+			remoteInfo = FirebaseFirestore;
+		};
+		450A988E2620F32A000E0456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450A98612620F32A000E0456 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 13C8C8B254851998F9289F71229B28A2;
+			remoteInfo = FirebaseInstallations;
+		};
+		450A98902620F32A000E0456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450A98612620F32A000E0456 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9CF8FA5F01F446F01AAC7331075452AD;
+			remoteInfo = FirebaseStorage;
+		};
+		450A98922620F32A000E0456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450A98612620F32A000E0456 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 856B5CD56F194FAD26EA91620B66D614;
+			remoteInfo = GoogleDataTransport;
+		};
+		450A98942620F32A000E0456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450A98612620F32A000E0456 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B43874C6CBB50E7134FBEC24BABFE14F;
+			remoteInfo = GoogleUtilities;
+		};
+		450A98962620F32A000E0456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450A98612620F32A000E0456 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1911113E0FBF13CFF9132E5FF7685228;
+			remoteInfo = "gRPC-C++";
+		};
+		450A98982620F32A000E0456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450A98612620F32A000E0456 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9C7C87B5D0A6752AFA2642F1BCA967A3;
+			remoteInfo = "gRPC-C++-gRPCCertificates-Cpp";
+		};
+		450A989A2620F32A000E0456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450A98612620F32A000E0456 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B471867C535B02FA55D87E260F6480F8;
+			remoteInfo = "gRPC-Core";
+		};
+		450A989C2620F32A000E0456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450A98612620F32A000E0456 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C1998E0D8085221AD87F89B614C10E52;
+			remoteInfo = GTMSessionFetcher;
+		};
+		450A989E2620F32A000E0456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450A98612620F32A000E0456 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A8E950A16D00F649C54FFB30F81D7842;
+			remoteInfo = IQKeyboardManagerSwift;
+		};
+		450A98A02620F32A000E0456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450A98612620F32A000E0456 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0A9F46A999C47653013D3AD854352507;
+			remoteInfo = "leveldb-library";
+		};
+		450A98A22620F32A000E0456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450A98612620F32A000E0456 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06FC5C9CF96D60C50FCD47D339C91951;
+			remoteInfo = nanopb;
+		};
+		450A98A42620F32A000E0456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450A98612620F32A000E0456 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 571815CA4B0E2BE7013A52E59CA81035;
+			remoteInfo = "Pods-iQuiz";
+		};
+		450A98A62620F32A000E0456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450A98612620F32A000E0456 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3347A1AB6546F0A3977529B8F199DC41;
+			remoteInfo = PromisesObjC;
+		};
+		450A98A82620F32A000E0456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450A98612620F32A000E0456 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 55888C5C1FA4856FD1856B3F6BBE7234;
+			remoteInfo = UICheckbox;
+		};
+		450A98AA2620F32A000E0456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450A98612620F32A000E0456 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3E41FA7ED27147783357189D326DCA4B;
+			remoteInfo = "UITableView+Cache";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		035C7973A5C252638D82683D /* Pods-iQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iQuiz.debug.xcconfig"; path = "Target Support Files/Pods-iQuiz/Pods-iQuiz.debug.xcconfig"; sourceTree = "<group>"; };
-		0FFCDC409ED8ACFDD0A104E6 /* Pods_iQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A519FE05F06E1BA2262ECCB /* Pods_iQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		450A98612620F32A000E0456 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = ../Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		450A98CE2620F5A2000E0456 /* AboutieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutieViewController.swift; path = "New Group1/AboutieViewController.swift"; sourceTree = "<group>"; };
+		450A98EB2620F5C6000E0456 /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FilterViewController.swift; path = "New Group/FilterViewController.swift"; sourceTree = "<group>"; };
 		455692DC261AC0B00047CF15 /* HomeFeedUtTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedUtTableViewCell.swift; sourceTree = "<group>"; };
 		455692DD261AC0B00047CF15 /* HomeFeedUtTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeFeedUtTableViewCell.xib; sourceTree = "<group>"; };
+		458837D6261E6ED3001C0663 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		45B3363E261ECDC200D409FA /* FilterArabicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterArabicViewController.swift; sourceTree = "<group>"; };
+		45B944A1261FDFD100E5B871 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		45BC9BF82620F72B00552086 /* LangaugeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LangaugeViewController.swift; path = "New Group1/LangaugeViewController.swift"; sourceTree = "<group>"; };
 		45E374AA26196E3F002D65B9 /* FirstUseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUseViewController.swift; sourceTree = "<group>"; };
 		45E6B2A4261AD7D70050DC79 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		45E6B2A7261ADC3D0050DC79 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -55,7 +232,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DBF044816F66A9C3CEDF8D1 /* Pods_iQuiz.framework in Frameworks */,
+				EDC65F6C15FA29D08E639768 /* Pods_iQuiz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +251,46 @@
 		29F59F1919124AD01A3B6697 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0FFCDC409ED8ACFDD0A104E6 /* Pods_iQuiz.framework */,
+				1A519FE05F06E1BA2262ECCB /* Pods_iQuiz.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		450A98622620F32A000E0456 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				450A987F2620F32A000E0456 /* absl.framework */,
+				450A98812620F32A000E0456 /* BonsaiController.framework */,
+				450A98832620F32A000E0456 /* openssl_grpc.framework */,
+				450A98852620F32A000E0456 /* DropDown.framework */,
+				450A98872620F32A000E0456 /* FirebaseCore.framework */,
+				450A98892620F32A000E0456 /* FirebaseCoreDiagnostics.framework */,
+				450A988B2620F32A000E0456 /* FirebaseDatabase.framework */,
+				450A988D2620F32A000E0456 /* FirebaseFirestore.framework */,
+				450A988F2620F32A000E0456 /* FirebaseInstallations.framework */,
+				450A98912620F32A000E0456 /* FirebaseStorage.framework */,
+				450A98932620F32A000E0456 /* GoogleDataTransport.framework */,
+				450A98952620F32A000E0456 /* GoogleUtilities.framework */,
+				450A98972620F32A000E0456 /* grpcpp.framework */,
+				450A98992620F32A000E0456 /* gRPCCertificates-Cpp.bundle */,
+				450A989B2620F32A000E0456 /* grpc.framework */,
+				450A989D2620F32A000E0456 /* GTMSessionFetcher.framework */,
+				450A989F2620F32A000E0456 /* IQKeyboardManagerSwift.framework */,
+				450A98A12620F32A000E0456 /* leveldb.framework */,
+				450A98A32620F32A000E0456 /* nanopb.framework */,
+				450A98A52620F32A000E0456 /* Pods_iQuiz.framework */,
+				450A98A72620F32A000E0456 /* FBLPromises.framework */,
+				450A98A92620F32A000E0456 /* UICheckbox.framework */,
+				450A98AB2620F32A000E0456 /* UITableView_Cache.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		450A98B02620F4C5000E0456 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		455692E1261AC0EF0047CF15 /* Custom Cells */ = {
@@ -109,20 +323,28 @@
 		45E6C91826195C4B0033ECDF /* iQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				450A98B02620F4C5000E0456 /* New Group */,
 				45E374AA26196E3F002D65B9 /* FirstUseViewController.swift */,
 				45E6C934261968E10033ECDF /* MyViewController.swift */,
 				45E6C91926195C4B0033ECDF /* AppDelegate.swift */,
+				45BC9BF82620F72B00552086 /* LangaugeViewController.swift */,
 				45E6B2A4261AD7D70050DC79 /* GoogleService-Info.plist */,
+				450A98CE2620F5A2000E0456 /* AboutieViewController.swift */,
 				45E6C91B26195C4B0033ECDF /* SceneDelegate.swift */,
 				45E6C91D26195C4B0033ECDF /* ViewController.swift */,
 				45E6C91F26195C4B0033ECDF /* Main.storyboard */,
+				45B944A1261FDFD100E5B871 /* SettingsViewController.swift */,
+				450A98EB2620F5C6000E0456 /* FilterViewController.swift */,
+				458837D6261E6ED3001C0663 /* Manager.swift */,
+				45B3363E261ECDC200D409FA /* FilterArabicViewController.swift */,
 				45E6B2AA261ADF060050DC79 /* SubmitViewController.swift */,
 				45E6B2E1261B6E460050DC79 /* MoreViewController.swift */,
-				455692E1261AC0EF0047CF15 /* Custom Cells */,
 				45E6C931261961F10033ECDF /* NewViewController.swift */,
+				455692E1261AC0EF0047CF15 /* Custom Cells */,
+				450A98612620F32A000E0456 /* Pods.xcodeproj */,
 				45E6B2A7261ADC3D0050DC79 /* Extensions.swift */,
-				45E6C92526195C4C0033ECDF /* Assets.xcassets */,
 				45E6C92726195C4C0033ECDF /* LaunchScreen.storyboard */,
+				45E6C92526195C4C0033ECDF /* Assets.xcassets */,
 				45E6C92A26195C4C0033ECDF /* Info.plist */,
 				45E6C92226195C4B0033ECDF /* iQuiz.xcdatamodeld */,
 			);
@@ -140,7 +362,7 @@
 				45E6C91226195C4B0033ECDF /* Sources */,
 				45E6C91326195C4B0033ECDF /* Frameworks */,
 				45E6C91426195C4B0033ECDF /* Resources */,
-				540086D84D703F9836C79962 /* [CP] Embed Pods Frameworks */,
+				C70ADCB548FF0B3C2E12384C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -176,12 +398,182 @@
 			mainGroup = 45E6C90D26195C4B0033ECDF;
 			productRefGroup = 45E6C91726195C4B0033ECDF /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 450A98622620F32A000E0456 /* Products */;
+					ProjectRef = 450A98612620F32A000E0456 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				45E6C91526195C4B0033ECDF /* iQuiz */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		450A987F2620F32A000E0456 /* absl.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = absl.framework;
+			remoteRef = 450A987E2620F32A000E0456 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		450A98812620F32A000E0456 /* BonsaiController.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BonsaiController.framework;
+			remoteRef = 450A98802620F32A000E0456 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		450A98832620F32A000E0456 /* openssl_grpc.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = openssl_grpc.framework;
+			remoteRef = 450A98822620F32A000E0456 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		450A98852620F32A000E0456 /* DropDown.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DropDown.framework;
+			remoteRef = 450A98842620F32A000E0456 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		450A98872620F32A000E0456 /* FirebaseCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseCore.framework;
+			remoteRef = 450A98862620F32A000E0456 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		450A98892620F32A000E0456 /* FirebaseCoreDiagnostics.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseCoreDiagnostics.framework;
+			remoteRef = 450A98882620F32A000E0456 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		450A988B2620F32A000E0456 /* FirebaseDatabase.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseDatabase.framework;
+			remoteRef = 450A988A2620F32A000E0456 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		450A988D2620F32A000E0456 /* FirebaseFirestore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseFirestore.framework;
+			remoteRef = 450A988C2620F32A000E0456 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		450A988F2620F32A000E0456 /* FirebaseInstallations.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseInstallations.framework;
+			remoteRef = 450A988E2620F32A000E0456 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		450A98912620F32A000E0456 /* FirebaseStorage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseStorage.framework;
+			remoteRef = 450A98902620F32A000E0456 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		450A98932620F32A000E0456 /* GoogleDataTransport.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GoogleDataTransport.framework;
+			remoteRef = 450A98922620F32A000E0456 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		450A98952620F32A000E0456 /* GoogleUtilities.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GoogleUtilities.framework;
+			remoteRef = 450A98942620F32A000E0456 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		450A98972620F32A000E0456 /* grpcpp.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = grpcpp.framework;
+			remoteRef = 450A98962620F32A000E0456 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		450A98992620F32A000E0456 /* gRPCCertificates-Cpp.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "gRPCCertificates-Cpp.bundle";
+			remoteRef = 450A98982620F32A000E0456 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		450A989B2620F32A000E0456 /* grpc.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = grpc.framework;
+			remoteRef = 450A989A2620F32A000E0456 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		450A989D2620F32A000E0456 /* GTMSessionFetcher.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GTMSessionFetcher.framework;
+			remoteRef = 450A989C2620F32A000E0456 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		450A989F2620F32A000E0456 /* IQKeyboardManagerSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = IQKeyboardManagerSwift.framework;
+			remoteRef = 450A989E2620F32A000E0456 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		450A98A12620F32A000E0456 /* leveldb.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = leveldb.framework;
+			remoteRef = 450A98A02620F32A000E0456 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		450A98A32620F32A000E0456 /* nanopb.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = nanopb.framework;
+			remoteRef = 450A98A22620F32A000E0456 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		450A98A52620F32A000E0456 /* Pods_iQuiz.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_iQuiz.framework;
+			remoteRef = 450A98A42620F32A000E0456 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		450A98A72620F32A000E0456 /* FBLPromises.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FBLPromises.framework;
+			remoteRef = 450A98A62620F32A000E0456 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		450A98A92620F32A000E0456 /* UICheckbox.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UICheckbox.framework;
+			remoteRef = 450A98A82620F32A000E0456 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		450A98AB2620F32A000E0456 /* UITableView_Cache.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UITableView_Cache.framework;
+			remoteRef = 450A98AA2620F32A000E0456 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		45E6C91426195C4B0033ECDF /* Resources */ = {
@@ -221,7 +613,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		540086D84D703F9836C79962 /* [CP] Embed Pods Frameworks */ = {
+		C70ADCB548FF0B3C2E12384C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -245,16 +637,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45BC9BF92620F72B00552086 /* LangaugeViewController.swift in Sources */,
+				45B3363F261ECDC300D409FA /* FilterArabicViewController.swift in Sources */,
 				45E374AB26196E3F002D65B9 /* FirstUseViewController.swift in Sources */,
 				45E6B2A8261ADC3D0050DC79 /* Extensions.swift in Sources */,
+				450A98EC2620F5C6000E0456 /* FilterViewController.swift in Sources */,
 				455692DE261AC0B00047CF15 /* HomeFeedUtTableViewCell.swift in Sources */,
 				45E6C92426195C4B0033ECDF /* iQuiz.xcdatamodeld in Sources */,
 				45E6B2E2261B6E460050DC79 /* MoreViewController.swift in Sources */,
 				45E6C91E26195C4B0033ECDF /* ViewController.swift in Sources */,
+				45B944A2261FDFD100E5B871 /* SettingsViewController.swift in Sources */,
+				458837D7261E6ED3001C0663 /* Manager.swift in Sources */,
 				45E6C932261961F10033ECDF /* NewViewController.swift in Sources */,
 				45E6B2AB261ADF060050DC79 /* SubmitViewController.swift in Sources */,
 				45E6C91A26195C4B0033ECDF /* AppDelegate.swift in Sources */,
 				45E6C935261968E10033ECDF /* MyViewController.swift in Sources */,
+				450A98CF2620F5A2000E0456 /* AboutieViewController.swift in Sources */,
 				45E6C91C26195C4B0033ECDF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,6 +802,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_TEAM = 2UB54RR38V;
 				INFOPLIST_FILE = iQuiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -424,6 +823,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_TEAM = 2UB54RR38V;
 				INFOPLIST_FILE = iQuiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

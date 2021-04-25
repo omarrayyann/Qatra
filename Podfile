@@ -12,6 +12,9 @@ pod 'Firebase/Database'
 pod 'IQKeyboardManagerSwift'
 pod 'Firebase/Storage'
 pod 'UITableView+Cache'
+pod 'DropDown'
+pod 'UICheckbox'
+pod 'BonsaiController'
 
 
 end

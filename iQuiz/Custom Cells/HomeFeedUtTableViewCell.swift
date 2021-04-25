@@ -12,6 +12,8 @@ class HomeFeedUtTableViewCell: UITableViewCell {
     var row: Int?
 
     
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var unitsLabel: UILabel!
     @IBOutlet weak var phoneLabel: UILabel!
     @IBOutlet weak var bloodType: UILabel!
     @IBOutlet weak var noteLabel: UILabel!
@@ -26,14 +28,22 @@ class HomeFeedUtTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         contributeButton.layer.cornerRadius = contributeButton.frame.height / 5
-      
+       
         // Initialization code
     }
     var delegate:MyCustomCellDelegator!
 
     @IBAction func contributePressed(_ sender: Any) {
         if(self.delegate != nil){ //Just to be safe.
+            
+            if Manager.shared.isEnglish() == true {
             self.delegate.callSegueFromCell(name: NameLabelHidden.text!, place: "\(locationHospital.text!) in \(cityName.text!)", phone: phoneLabel.text!, note: noteLabel.text!, bloodType: bloodType.text!, time: timeLabel.text!)
+            }
+            else{
+                self.delegate.callSegueFromCell(name: unitsLabel.text!, place: "\(locationHospital.text!) في \(cityName.text!)", phone: phoneLabel.text!, note: noteLabel.text!, bloodType: bloodType.text!, time: timeLabel.text!)
+            }
+            
+            
         }
     }
     override func setSelected(_ selected: Bool, animated: Bool) {
