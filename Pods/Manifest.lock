@@ -233,6 +233,9 @@ PODS:
   - Firebase/Firestore (7.5.0):
     - Firebase/CoreOnly
     - FirebaseFirestore (~> 7.5.0)
+  - Firebase/Messaging (7.5.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 7.5.0)
   - Firebase/Storage (7.5.0):
     - Firebase/CoreOnly
     - FirebaseStorage (~> 7.5.0)
@@ -274,6 +277,18 @@ PODS:
     - GoogleUtilities/Environment (~> 7.0)
     - GoogleUtilities/UserDefaults (~> 7.0)
     - PromisesObjC (~> 1.2)
+  - FirebaseInstanceID (7.11.0):
+    - FirebaseCore (~> 7.0)
+    - FirebaseInstallations (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/UserDefaults (~> 7.0)
+  - FirebaseMessaging (7.5.0):
+    - FirebaseCore (~> 7.0)
+    - FirebaseInstanceID (~> 7.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/Reachability (~> 7.0)
+    - GoogleUtilities/UserDefaults (~> 7.0)
   - FirebaseStorage (7.5.0):
     - FirebaseCore (~> 7.0)
     - GTMSessionFetcher/Core (~> 1.4)
@@ -346,6 +361,7 @@ DEPENDENCIES:
   - Firebase/Analytics
   - Firebase/Database
   - Firebase/Firestore
+  - Firebase/Messaging
   - Firebase/Storage
   - IQKeyboardManagerSwift
   - UICheckbox
@@ -364,6 +380,8 @@ SPEC REPOS:
     - FirebaseDatabase
     - FirebaseFirestore
     - FirebaseInstallations
+    - FirebaseInstanceID
+    - FirebaseMessaging
     - FirebaseStorage
     - GoogleAppMeasurement
     - GoogleDataTransport
@@ -390,6 +408,8 @@ SPEC CHECKSUMS:
   FirebaseDatabase: ee59c5f39e49dfa6c06af6f4e541a88d9271625a
   FirebaseFirestore: 9a4c23e979412a8557992f4515314b38fc0c888b
   FirebaseInstallations: a46ae59915f0931e18814164849cd0354bea24ed
+  FirebaseInstanceID: ad5135045a498d7775903efd39762d2cdfa1be27
+  FirebaseMessaging: a2a23671eb281b1eed38b155af8549b335a4a38b
   FirebaseStorage: 9cbdff7bdcdc8289c8efc20945fc91c1066d0b43
   GoogleAppMeasurement: 65a1071e5f52f63ab03d0a4d814a54fd762d885a
   GoogleDataTransport: 1024b1a4dfbd7a0e92cb20d7e0a6f1fb66b449a4
@@ -404,6 +424,6 @@ SPEC CHECKSUMS:
   UICheckbox: 54af9bc308c8c2b18404f4c360172115c0daea36
   "UITableView+Cache": 4a626f6be2864fa29b417c65c57d783b41230dc5
 
-PODFILE CHECKSUM: 76971e80c3bf4f83305622c1fd580e6ee93ee43b
+PODFILE CHECKSUM: 8d7b9fba6087d5d02511de60da64566a9718be10
 
 COCOAPODS: 1.10.1

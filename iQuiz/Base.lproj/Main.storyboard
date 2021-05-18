@@ -16,7 +16,7 @@
             <objects>
                 <viewController id="c98-gU-b87" customClass="MyViewController" customModule="iQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Rs-Z8-2GR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Requests" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="XUe-17-pi8">
@@ -261,7 +261,7 @@
             <objects>
                 <viewController id="42a-64-TeA" customClass="NewViewController" customModule="iQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Yxi-pH-rYu">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="aOG-J9-TKJ">
@@ -852,6 +852,12 @@
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="to toggle notifications head to settings" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="whZ-iK-t0W">
+                                <rect key="frame" x="10" y="720.5" width="394" height="20.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                <color key="textColor" name="OtherColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9u6-Ev-Vy1"/>
                         <color key="backgroundColor" name="MainColor"/>
@@ -864,7 +870,9 @@
                             <constraint firstItem="5RC-Ur-9yX" firstAttribute="centerY" secondItem="LBY-4w-cCm" secondAttribute="centerY" id="BLd-5S-JTf"/>
                             <constraint firstAttribute="trailing" secondItem="60V-6J-Oh8" secondAttribute="trailing" constant="20" id="Icn-Db-mEI"/>
                             <constraint firstItem="s7c-Qz-dk7" firstAttribute="leading" secondItem="9u6-Ev-Vy1" secondAttribute="leading" constant="20" id="JzL-fn-GSR"/>
+                            <constraint firstItem="whZ-iK-t0W" firstAttribute="leading" secondItem="9u6-Ev-Vy1" secondAttribute="leading" constant="10" id="KhZ-mS-WI7"/>
                             <constraint firstItem="9u6-Ev-Vy1" firstAttribute="trailing" secondItem="5RC-Ur-9yX" secondAttribute="trailing" constant="20" id="LoS-K5-yj2"/>
+                            <constraint firstItem="szF-B1-NJB" firstAttribute="top" secondItem="whZ-iK-t0W" secondAttribute="bottom" constant="20" id="McA-mD-Swr"/>
                             <constraint firstItem="9u6-Ev-Vy1" firstAttribute="trailing" secondItem="bMk-Ef-MIA" secondAttribute="trailing" constant="20" id="Mka-8V-R7M"/>
                             <constraint firstItem="HfN-CK-bCl" firstAttribute="leading" secondItem="9u6-Ev-Vy1" secondAttribute="leading" constant="20" id="NK3-e6-H55"/>
                             <constraint firstItem="60V-6J-Oh8" firstAttribute="top" secondItem="9u6-Ev-Vy1" secondAttribute="top" constant="40" id="QbQ-vj-FkV"/>
@@ -874,6 +882,7 @@
                             <constraint firstItem="9u6-Ev-Vy1" firstAttribute="trailing" secondItem="HfN-CK-bCl" secondAttribute="trailing" constant="20" id="r1N-Eg-4Sl"/>
                             <constraint firstItem="bMk-Ef-MIA" firstAttribute="centerX" secondItem="LBY-4w-cCm" secondAttribute="centerX" id="uf7-kk-kdG"/>
                             <constraint firstItem="s7c-Qz-dk7" firstAttribute="top" secondItem="szF-B1-NJB" secondAttribute="bottom" constant="20" id="vrB-AU-MkK"/>
+                            <constraint firstAttribute="trailing" secondItem="whZ-iK-t0W" secondAttribute="trailing" constant="10" id="wi7-lV-TqN"/>
                             <constraint firstItem="5RC-Ur-9yX" firstAttribute="top" secondItem="bMk-Ef-MIA" secondAttribute="bottom" constant="40" id="xaU-sv-Wdi"/>
                         </constraints>
                     </view>
@@ -882,6 +891,7 @@
                         <outlet property="aboutButton" destination="HfN-CK-bCl" id="Nfk-kn-QQ0"/>
                         <outlet property="doneButton" destination="s7c-Qz-dk7" id="SYh-zJ-iTi"/>
                         <outlet property="languageButton" destination="bMk-Ef-MIA" id="Aux-A6-LCS"/>
+                        <outlet property="notiLabel" destination="whZ-iK-t0W" id="1eJ-8P-fLW"/>
                         <outlet property="reportProblem" destination="5RC-Ur-9yX" id="HHn-ns-I88"/>
                         <outlet property="titleLabel" destination="60V-6J-Oh8" id="j91-or-jeK"/>
                     </connections>
@@ -895,7 +905,7 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="9a2-JA-x7j" customClass="ViewController" customModule="iQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pl5-vb-7ke">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Requests" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="v6g-AH-gDR">
@@ -1041,7 +1051,7 @@
             <objects>
                 <viewController storyboardIdentifier="SmallVC" id="Gw2-uW-vkr" customClass="FilterViewController" customModule="iQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d0V-6q-z2q">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Filter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="RnG-F1-PQC">
@@ -1195,7 +1205,7 @@
                                 <color key="textColor" name="OtherColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You're Compatible" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="PDh-hS-DJG">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Similar Blood Type" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="PDh-hS-DJG">
                                 <rect key="frame" x="20" y="285" width="374" height="40"/>
                                 <color key="backgroundColor" name="CorrectColor"/>
                                 <constraints>
@@ -1760,7 +1770,7 @@
             <objects>
                 <viewController storyboardIdentifier="SmallVCArabic" id="1pX-KN-gMk" customClass="FilterArabic" customModule="iQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="g7p-Q2-MTj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تصفية" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="LN2-BN-od4">
@@ -1848,9 +1858,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="1Xw-X9-I6P"/>
-        <segue reference="mNO-yF-095"/>
-        <segue reference="w1V-MJ-O4f"/>
+        <segue reference="SAn-Yg-0od"/>
+        <segue reference="ENZ-bi-lwM"/>
+        <segue reference="ACk-Xn-VMZ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrow.clockwise" catalog="system" width="115" height="128"/>

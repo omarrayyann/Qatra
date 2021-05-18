@@ -52,7 +52,7 @@ class MoreViewController: UIViewController {
                 
             }
             else{
-                titleLabel.text = "You're not Compatible"}
+                titleLabel.text = "Different Blood Type"}
             titleLabel.backgroundColor = UIColor(named: "WrongColor")
             titleLabel.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         }

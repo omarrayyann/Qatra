@@ -194,6 +194,20 @@
 			remoteGlobalIDString = 3E41FA7ED27147783357189D326DCA4B;
 			remoteInfo = "UITableView+Cache";
 		};
+		4575098E26372B4B00422DF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450A98612620F32A000E0456 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2DA0D814DFCB860D31D7BCD63D795858;
+			remoteInfo = FirebaseInstanceID;
+		};
+		4575099026372B4B00422DF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450A98612620F32A000E0456 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5B654B4B042BA7DC93766943A643E42B;
+			remoteInfo = FirebaseMessaging;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -204,6 +218,7 @@
 		450A98EB2620F5C6000E0456 /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FilterViewController.swift; path = "New Group/FilterViewController.swift"; sourceTree = "<group>"; };
 		455692DC261AC0B00047CF15 /* HomeFeedUtTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedUtTableViewCell.swift; sourceTree = "<group>"; };
 		455692DD261AC0B00047CF15 /* HomeFeedUtTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeFeedUtTableViewCell.xib; sourceTree = "<group>"; };
+		4575097126372B4B00422DF1 /* iQuiz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iQuiz.entitlements; sourceTree = "<group>"; };
 		458837D6261E6ED3001C0663 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		45B3363E261ECDC200D409FA /* FilterArabicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterArabicViewController.swift; sourceTree = "<group>"; };
 		45B944A1261FDFD100E5B871 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -268,6 +283,8 @@
 				450A988B2620F32A000E0456 /* FirebaseDatabase.framework */,
 				450A988D2620F32A000E0456 /* FirebaseFirestore.framework */,
 				450A988F2620F32A000E0456 /* FirebaseInstallations.framework */,
+				4575098F26372B4B00422DF1 /* FirebaseInstanceID.framework */,
+				4575099126372B4B00422DF1 /* FirebaseMessaging.framework */,
 				450A98912620F32A000E0456 /* FirebaseStorage.framework */,
 				450A98932620F32A000E0456 /* GoogleDataTransport.framework */,
 				450A98952620F32A000E0456 /* GoogleUtilities.framework */,
@@ -323,6 +340,7 @@
 		45E6C91826195C4B0033ECDF /* iQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				4575097126372B4B00422DF1 /* iQuiz.entitlements */,
 				450A98B02620F4C5000E0456 /* New Group */,
 				45E374AA26196E3F002D65B9 /* FirstUseViewController.swift */,
 				45E6C934261968E10033ECDF /* MyViewController.swift */,
@@ -573,6 +591,20 @@
 			remoteRef = 450A98AA2620F32A000E0456 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		4575098F26372B4B00422DF1 /* FirebaseInstanceID.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseInstanceID.framework;
+			remoteRef = 4575098E26372B4B00422DF1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4575099126372B4B00422DF1 /* FirebaseMessaging.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseMessaging.framework;
+			remoteRef = 4575099026372B4B00422DF1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -801,14 +833,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iQuiz/iQuiz.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 16;
+				CURRENT_PROJECT_VERSION = 21;
 				DEVELOPMENT_TEAM = 2UB54RR38V;
 				INFOPLIST_FILE = iQuiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.omarrayyan.bloodJo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -822,14 +856,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iQuiz/iQuiz.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 16;
+				CURRENT_PROJECT_VERSION = 21;
 				DEVELOPMENT_TEAM = 2UB54RR38V;
 				INFOPLIST_FILE = iQuiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.omarrayyan.bloodJo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

@@ -15,6 +15,7 @@ pod 'UITableView+Cache'
 pod 'DropDown'
 pod 'UICheckbox'
 pod 'BonsaiController'
+pod 'Firebase/Messaging'
 
 
 end

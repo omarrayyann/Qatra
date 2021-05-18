@@ -19,6 +19,7 @@ class SettingsViewController: UIViewController, MFMailComposeViewControllerDeleg
         super.viewDidLoad()
         
         if Manager.shared.isEnglish() == false {
+            notiLabel.text = "لتشغيل أو إطفاء الإشعارات توجه للإعدادات"
             titleLabel.text = "الإعدادات"
             aboutButton.setTitle("عن قطرة", for: .normal)
             aboutButton.titleLabel?.font = UIFont(name: "Avenir Heavy", size: 19)
@@ -29,6 +30,8 @@ class SettingsViewController: UIViewController, MFMailComposeViewControllerDeleg
             doneButton.setTitle("استمرار", for: .normal)
         }
         else{
+            notiLabel.text = "to toggle notifications head to settings"
+
             titleLabel.text = "Settings"
             titleLabel.font = UIFont(name: "Futura Bold", size: 50)
             aboutButton.setTitle("About Qatra" , for: .normal)
@@ -55,6 +58,7 @@ class SettingsViewController: UIViewController, MFMailComposeViewControllerDeleg
         if Manager.shared.kante == true{
             Manager.shared.kante = false
             if Manager.shared.isEnglish() == false {
+                notiLabel.text = "لتشغيل أو إطفاء الإشعارات توجه للإعدادات"
                 aboutButton.setTitle("عن قطرة", for: .normal)
                 aboutButton.titleLabel?.font = UIFont(name: "Avenir Heavy", size: 19)
                 titleLabel.text = "الإعدادات"
@@ -65,6 +69,7 @@ class SettingsViewController: UIViewController, MFMailComposeViewControllerDeleg
                 doneButton.setTitle("استمرار", for: .normal)
             }
             else{
+                notiLabel.text = "to toggle notifications head to settings"
                 aboutButton.setTitle("About Qatra" , for: .normal)
                 aboutButton.titleLabel?.font = UIFont(name: "Futura Medium", size: 19)
                 titleLabel.text = "Settings"
@@ -101,6 +106,7 @@ class SettingsViewController: UIViewController, MFMailComposeViewControllerDeleg
     
     
     
+    @IBOutlet weak var notiLabel: UILabel!
     
     func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
       controller.dismiss(animated: true)
