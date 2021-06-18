@@ -573,7 +573,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
         }
         else{
-            titleLabel.text = "Current Requests"
+            titleLabel.text = "Current Announcements"
             titleLabel.font = UIFont(name: "Futura Medium", size: 25)
 
         }
@@ -588,7 +588,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
                 }
                 else{
-                    titleLabel.text = "Current Requests"
+                    titleLabel.text = "Current Announcements"
                     titleLabel.font = UIFont(name: "Futura Medium", size: 25)
                 }
                 
@@ -656,10 +656,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         
         if Manager.shared.isEnglish() == true {
-            let smallVC = storyboard!.instantiateViewController(identifier: "SmallVC")
-            smallVC.transitioningDelegate = self
-            smallVC.modalPresentationStyle = .custom
-            present(smallVC, animated: true, completion: nil )
+            
         }
         else if Manager.shared.isEnglish() == false {
             let smallVC = storyboard!.instantiateViewController(identifier: "SmallVCArabic")

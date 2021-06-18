@@ -79,6 +79,9 @@ class MoreViewController: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
+    @IBAction func clickedBiggerBack(_ sender: Any) {
+        backButton(self)
+    }
     
     @IBAction func callPressed(_ sender: Any) {
         

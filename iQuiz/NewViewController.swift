@@ -105,7 +105,7 @@ class NewViewController: UIViewController, UITextFieldDelegate {
             button9.setTitle("All", for: .normal)
 
             otherTextField.text = "Other"
-            titleLabel.text = "Request Blood"
+            titleLabel.text = "Announce a blood call"
             titleLabel.font = UIFont(name: "Futura Bold", size: 50)
             
             alreadyLabel.text = "You already have a pending request, cancel it to start another"
@@ -221,7 +221,7 @@ class NewViewController: UIViewController, UITextFieldDelegate {
             button9.setTitle("All", for: .normal)
 
             otherTextField.text = "Other"
-            titleLabel.text = "Request Blood"
+            titleLabel.text = "Announce a blood call"
             titleLabel.font = UIFont(name: "Futura Bold", size: 50)
             
             alreadyLabel.text = "You already have a pending request, cancel it to start another"
